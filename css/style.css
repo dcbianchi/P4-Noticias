@@ -1,17 +1,110 @@
 /********************************************
+...::: Cabeçalho do site :::...
+********************************************/
+#header {
+    background: #294c71 url(../img/detalhe-topo.png) no-repeat right top;
+    height: 233px;
+}
+
+#header ul {
+	background: #b10333;
+}
+
+#header ul li {
+    background: #b10333;
+	float: left;
+}
+
+#header ul a:hover{
+    color:#69001d;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+}
+
+#logoDT {
+    float: right;
+}
+
+
+/********************************************
+...::: Formatação Geral do site :::...
+********************************************/
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/********************************************
+...::: Formatação das caixas :::...
+********************************************/
+#container{
+    text-align: center;
+    width: 920px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.box {
+    display: inline;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************
 ...::: Formatação do Rodapé:::...
 ********************************************/
-
 #footer {
     clear: both;
     padding: 5px;
     text-align: center;
     margin: 0 auto;
     margin-top: 45px;
-    border-radius: 5px;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.3);
-    /* background: #643d87; */
+    background-color: #294c71;;
 }
 
 .FooterIcon{
@@ -19,7 +112,11 @@
     text-decoration: none;
 }
 
+#footer p{
+    color: white;
+}
+
 #dcbianchi {
-    color: purple;
+    color: red;
     text-decoration: underline;
 }
