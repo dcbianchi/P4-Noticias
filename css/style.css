@@ -1,14 +1,68 @@
 /********************************************
-...::: Cabeçalho do site :::...
-********************************************/
-
-/********************************************
 ...::: Formatação Geral do site :::...
 ********************************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #ffffff url(../img/fundo.png) repeat-x;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+	padding: 0;
+}
+
+a:link a:visited{
+
+}
+
+/********************************************
+...::: Cabeçalho do site :::...
+********************************************/
+#header {
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding: 25px;
+}
+
+
+
+/********************************************
+...::: Formatação do menu :::...
+********************************************/
+#header ul{
+    background: #b10333;
+    float: left;
+    margin-top: 30px;
+}
+
 
 /********************************************
 ...::: Formatação das caixas :::...
 ********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********************************************
 ...::: Formatação do Rodapé:::...
