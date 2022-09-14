@@ -18,7 +18,7 @@ ul {
 }
 
 a:link a:visited{
-
+    text-decoration: none;
 }
 
 /********************************************
@@ -30,6 +30,12 @@ a:link a:visited{
     padding: 25px;
 }
 
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    text-indent: -3000px;
+    width: 152px;
+    height: 66px;
+}
 
 
 /********************************************
@@ -39,6 +45,24 @@ a:link a:visited{
     background: #b10333;
     float: left;
     margin-top: 30px;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul a{
+    color: #ffffff;
+    text-decoration: none;
+	background: url(../img/divisor.png) no-repeat left center;
+	display: block;
+    font-size: 0.9em;
+	padding: 0.5em 1.5em;;
+	line-height: 2.1em;
+}
+
+#header ul a:hover {
+        color: #69001d;
 }
 
 
