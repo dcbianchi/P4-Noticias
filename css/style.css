@@ -93,7 +93,17 @@ body.fotos #navegacao a#fotos{
 /********************************************
 ...::: Menu lateral :::...
 ********************************************/
+.lateral ul a{
+    font-size: 0.9em;
+    padding: 3px;
+    text-decoration: none;
+}
 
+.lateral ul a:hover{
+    background: url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+	color: #a1a1a1;
+}
 
 /********************************************
 ...::: Formatação do Layout :::...
