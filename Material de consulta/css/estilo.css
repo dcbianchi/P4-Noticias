@@ -197,22 +197,22 @@ h3 {
 	height: 62px;
 }
 
-#lista-noticias li a img {
+#lista-noticias img {
 	float: left;
 	margin: 5px;
 }
 
-#lista-noticias li a {
+#lista-noticias a {
 	text-decoration: none;
 }
 
-#lista-noticias li a h3 {
+#lista-noticias h3 {
 	font-size: 0.8em;
 	padding: 0;
 	color: #3e7ab9;
 }
 
-#lista-noticias li a p {
+#lista-noticias p {
 	font-size: 0.7em;
 	color: #000;
 }
