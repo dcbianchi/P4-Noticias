@@ -59,9 +59,7 @@ ul {
 	background: url(../imagens/divisor.png) no-repeat left center;
 }
 
-#topo ul .primeiro a {
-	background: none;
-}
+
 
 #topo ul a:hover {
 	color: #69001d;
