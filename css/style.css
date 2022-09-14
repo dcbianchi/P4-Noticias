@@ -26,6 +26,13 @@ a:link a:visited{
     text-decoration: none;
 }
 
+h2 {
+    color: #ffffff;
+    font-size: 1em;
+    background: #294c71;
+    padding: 5px;
+}
+
 /********************************************
 ...::: Cabeçalho do site :::...
 ********************************************/
@@ -87,9 +94,17 @@ body.fotos #navegacao a#fotos{
     border: 1px solid red;
 }
 
+.lateral{
+    display: flex;
+}
 
+.principal{
+    display: flex;
+}
 
-
+.secundario{
+    display: flex;
+}
 
 
 /********************************************
