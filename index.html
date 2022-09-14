@@ -5,41 +5,43 @@
     <title>Noticias da Cidade - Seu site de noticias</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<body id="Home">
-    <!-- Cabeçalho fixo do Site -->
-    <div id="header">
-      <h1 class="logo">Noticias Cidade</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Brasil</a></li>
-            <li><a href="#">Internacional</a></li>
-            <li><a href="#">Economia</a></li>
-            <li><a href="#">Saúde</a></li>
-            <li><a href="#">Ciência</a></li>
-            <li><a href="#">Fotos</a></li>
-        </ul>
-    </div>
+<body class="home">
+    <!-- #container guarda todo o conteudo do site, centralizando-o e delimitando o tamanho total -->
+    <div id="container">
 
+        <!-- Cabeçalho fixo do Site -->
+        <div id="header">
+        <h1 class="logo">Noticias Cidade</h2>
+            <ul id="navegacao">
+                <li class="primeiro"><a id="home" href="#">Home</a></li>
+                <li><a id="Brasil" href="#">Brasil</a></li>
+                <li><a id="Internacional" href="#">Internacional</a></li>
+                <li><a id="Economia" href="#">Economia</a></li>
+                <li><a id="Saude" href="#">Saúde</a></li>
+                <li><a id="Ciência" href="#">Ciência</a></li>
+                <li><a id="Fotos" href="#">Fotos</a></li>
+            </ul>
+        </div>
 
+    </div> <!-- Fim de #container -->
+        <!-- Rodapé personalizado -->
+        <div id="footer">
+            <p> © Copyright 2000-2018 Notícias cidade </p>
+            <p> Powered by <a id="dcbianchi" href="https://github.com/dcbianchi">DcBianchi</a></p><br>
+            <a class="FooterIcon" href="https://www.linkedin.com/in/dcbianchi/" target="_blank">
+                <img src="img/linkedin.svg" title="linkedin" alt="" height="30">
+            </a>
+            <a class="FooterIcon" href="https://www.instagram.com/dc_bianchi/" target="_blank">
+                <img src="img/instagram.svg" title="instagram" alt="" height="30">
+            </a>
+            
+            <a class="FooterIcon" href="https://discordapp.com/users/Dcbianchi#5765" target="_blank">
+                <img src="img/discord.svg" title="discord" alt="" height="30">
+            </a>
+            <br>
+            
 
-
-    <!-- Rodapé personalizado -->
-    <div id="footer">
-        <p> © Copyright 2000-2018 Notícias cidade </p>
-        <p> Powered by <a id="dcbianchi" href="https://github.com/dcbianchi">DcBianchi</a></p>
-        <a class="FooterIcon" href="https://www.linkedin.com/in/dcbianchi/" target="_blank">
-            <img src="img/linkedin.svg" title="linkedin" alt="" height="30">
-        </a>
-        <a class="FooterIcon" href="https://www.instagram.com/dc_bianchi/" target="_blank">
-            <img src="img/instagram.svg" title="instagram" alt="" height="30">
-        </a>
-        
-        <a class="FooterIcon" href="https://discordapp.com/users/Dcbianchi#5765" target="_blank">
-            <img src="img/discord.svg" title="discord" alt="" height="30">
-        </a>
-        <br>
-        
-
-    </div>
+        </div>
+    
 </body>
 </html>
