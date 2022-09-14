@@ -33,6 +33,12 @@ h2 {
     padding: 5px;
 }
 
+h3 {
+    text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
 /********************************************
 ...::: Cabeçalho do site :::...
 ********************************************/
@@ -93,23 +99,43 @@ body.fotos #navegacao a#fotos{
     background: #f5f5f5;
 }
 
+/* ...::: Lateral :::... */
 .lateral{
    float: left;
    width: 180px;
    margin: 0 10px 0 0;
 }
 
+/* ...::: Principal :::... */
 .principal{
     float: left;
     width: 300px;
     margin: 0 10px 0 0;
 }
 
+.destaque h3{
+    background: #b10333;
+    display: inline;
+    color: #ffffff;
+}
+
+.entrevista h3{
+    background: #b10333;
+    display: inline;
+}
+
+img.img-principal {
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/* ...::: Secundario :::... */
 .secundario{
     float: left;
     width: 300px;
 }
 
+/* ...::: Caixas de Conteúdo :::... */
 .box{
     margin: 10px 0;
 	padding: 5px;
@@ -120,7 +146,6 @@ body.fotos #navegacao a#fotos{
     background: #ffffff;
     margin-top: 5px;
 }
-
 
 /********************************************
 ...::: Formatação do Rodapé:::...
