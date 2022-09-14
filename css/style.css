@@ -14,7 +14,6 @@ body {
 #container{
     width: 800px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 ul {
@@ -68,10 +67,7 @@ a:link a:visited{
 
 #header ul a:hover {
         color: #69001d;
-        
 }
-
-
 
 body.home #navegacao a#home,
 body.brazil #navegacao a#brazil, 
@@ -85,6 +81,16 @@ body.fotos #navegacao a#fotos{
 ...::: Formatação do Layout :::...
         Layout em 3 colunas
 ********************************************/
+#conteudo {
+    margin-top: 40px;
+    background: #f5f5f5;
+    border: 1px solid red;
+}
+
+
+
+
+
 
 /********************************************
 ...::: Formatação do Rodapé:::...
