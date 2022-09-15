@@ -5,25 +5,76 @@
     <title>Noticias da Cidade - Seu site de noticias</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<body class="fotos">
+<body id="uma-coluna" class="fotos">
     <!-- #container guarda todo o conteudo do site, centralizando-o e delimitando o tamanho total -->
     <div id="container">
 
         <!-- Cabeçalho fixo do Site -->
         <div id="header">
-        <h1 class="logo">Noticias Cidade</h2>
+            <h1 class="logo">Noticias Cidade</h2>
             <ul id="navegacao">
                 <li class="primeiro"><a id="home" href="index.html">Home</a></li>
-                <li><a id="Brasil" href="brazil.html">Brasil</a></li>
+                <li><a id="brazil" href="brazil.html">Brasil</a></li>
                 <li><a id="Internacional" href="#">Internacional</a></li>
                 <li><a id="Economia" href="#">Economia</a></li>
                 <li><a id="Saude" href="#">Saúde</a></li>
                 <li><a id="Ciência" href="#">Ciência</a></li>
-                <li><a id="fotos" href="fotos.html">Fotos</a></li>
+                <li><a id="Fotos" href="fotos.html">Fotos</a></li>
             </ul>
-        </div>
+        </div> <!-- Fim Cabeçalho fixo-->
 
+        <!-- Area do Conteúdo -->
+        <div id="conteudo">
+            <div class="principal">
+                <div class="box destaque">
+                    <h2> Destaque</h2>
+                    <div class="box-content">
+                        <h3>Nova legislação</h3>
+                        <img class="img-principal" src="img/taxi.jpg">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                        <a href="#">Leia mais!</a>
+                    </div> <!-- fim box-content -->
+                </div><!-- fim box -->
+
+                <div class="box mundo">
+                    <h2> Mundo</h2>
+                    <div class="box-content">
+                        <ul class="news-list">
+                            <li>
+                                <a href="#">
+                                    <img src="img/tecnologia.jpg" width="80">
+                                        <h3>Novas tecnologias!</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/tecnologia.jpg" width="80">
+                                        <h3>Novas tecnologias!</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/tecnologia.jpg" width="80">
+                                        <h3>Novas tecnologias!</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/tecnologia.jpg" width="80">
+                                        <h3>Novas tecnologias!</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div> <!-- fim box-content -->
+                </div><!-- fim box -->
+            </div><!-- fim Principal -->     
+        </div><!-- Fim Area do Conteúdo -->
     </div> <!-- Fim de #container -->
+
         <!-- Rodapé personalizado -->
         <div id="footer">
             <p> © Copyright 2000-2018 Notícias cidade </p>

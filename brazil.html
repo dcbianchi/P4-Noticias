@@ -5,13 +5,13 @@
     <title>Noticias da Cidade - Seu site de noticias</title>
     <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<body class="brazil">
+<body id="duas-colunas" class="brazil">
     <!-- #container guarda todo o conteudo do site, centralizando-o e delimitando o tamanho total -->
     <div id="container">
 
         <!-- Cabeçalho fixo do Site -->
         <div id="header">
-        <h1 class="logo">Noticias Cidade</h2>
+            <h1 class="logo">Noticias Cidade</h2>
             <ul id="navegacao">
                 <li class="primeiro"><a id="home" href="index.html">Home</a></li>
                 <li><a id="brazil" href="brazil.html">Brasil</a></li>
@@ -21,7 +21,89 @@
                 <li><a id="Ciência" href="#">Ciência</a></li>
                 <li><a id="Fotos" href="fotos.html">Fotos</a></li>
             </ul>
-        </div>
+        </div> <!-- Fim Cabeçalho fixo-->
+
+        <!-- Area do Conteúdo -->
+        <div id="conteudo">
+        
+            <div class="lateral">
+                <div class="box">
+                    <h2>Entrevistas</h2>
+                    <div class="box-content">
+                        <ul>
+                            <li><a href="#">José Almeida</a></li>
+                            <li><a href="#">Felipe Silva</a></li>
+                            <li><a href="#">Renato Rodrigues</a></li>
+                            <li><a href="#">Abelardo Silveira</a></li>
+                            <li><a href="#">André Carlos</a></li>
+                            <li><a href="#">Márcio Mello</a></li>
+                            <li><a href="#">João Pedro</a></li>
+                            <li><a href="#">Fernando Weiss</a></li>
+                        </ul>
+                    </div> <!-- fim box-content -->
+                </div> <!-- Fim Box -->
+
+                <div class="box">
+                    <h2>News</h2>
+                    <div class="box-content news">
+                        <form>
+                            <label for="email">E-mail:
+                                <input type="text" id="email" value="E-mail">
+                                <input type="submit" class="submit" value="Cadastrar">
+                            </label>
+                        </form>
+                    </div>  <!-- fim box-content -->
+                </div> <!-- Fim Box -->
+            </div><!-- fim Lateral -->
+        </div><!-- Fim Area do Conteúdo -->
+
+        <div class="principal">
+            <div class="box destaque">
+                <h2> Destaque</h2>
+                <div class="box-content">
+                    <h3>Nova legislação</h3>
+                    <img class="img-principal" src="img/taxi.jpg">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    <a href="#">Leia mais!</a>
+                </div> <!-- fim box-content -->
+            </div><!-- fim box -->
+
+            <div class="box mundo">
+                <h2> Mundo</h2>
+                <div class="box-content">
+                    <ul class="news-list">
+                        <li>
+                            <a href="#">
+                                <img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/tecnologia.jpg" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div> <!-- fim box-content -->
+            </div><!-- fim box -->
+        </div><!-- fim Principal -->
 
     </div> <!-- Fim de #container -->
         <!-- Rodapé personalizado -->

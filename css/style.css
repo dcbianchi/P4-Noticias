@@ -133,6 +133,15 @@ body.fotos #navegacao a#fotos{
     margin: 0 10px 0 0;
 }
 
+#duas-colunas .principal{
+    width: 555px;
+}
+
+#uma-coluna .principal{
+    width: 750px;
+}
+
+/* ...::: Elements of principal :::... */
 .destaque h3{
     background: #b10333;
     display: inline;
