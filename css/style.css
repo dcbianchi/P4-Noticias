@@ -119,18 +119,11 @@ body.fotos #navegacao a#fotos{
     background: #f5f5f5;
 }
 
-/* ...::: Lateral :::... */
-.lateral{
-   float: left;
-   width: 180px;
-   margin: 0 10px 0 0;
-}
-
 /* ...::: Principal :::... */
 .principal{
     float: left;
     width: 300px;
-    margin: 0 10px 0 0;
+    margin: 0 0 10px 190px;
 }
 
 #duas-colunas .principal{
@@ -162,7 +155,15 @@ img.img-principal {
 .secundario{
     float: left;
     width: 300px;
+    margin: 0 0 10px 10px;
 }
+
+/* ...::: Lateral :::... */
+.lateral{
+    float: left;
+    width: 180px;
+    margin: 0 0 10px -800px;
+ }
 
 /* ...::: Caixas de Conteúdo :::... */
 .box{

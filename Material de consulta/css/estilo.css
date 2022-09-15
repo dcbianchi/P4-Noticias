@@ -93,6 +93,12 @@ body.fotos #navegacao a#fotos
 	margin: 0 0 20px 195px ;
 }
 
+#secundario {
+	width: 270px;
+	float: left;
+	margin: 0 0 20px 15px;
+}
+
 #duas-colunas #primario {
 	width: 555px;
 }
@@ -102,11 +108,7 @@ body.fotos #navegacao a#fotos
 	margin: 0 0 20px 0;
 }
 
-#secundario {
-	width: 270px;
-	float: left;
-	margin: 0 0 20px 15px;
-}
+
 
 /*Caixa*/
 .caixa {
