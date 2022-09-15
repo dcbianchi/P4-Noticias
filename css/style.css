@@ -95,12 +95,17 @@ body.fotos #navegacao a#fotos{
 ********************************************/
 .lateral ul a{
     font-size: 0.9em;
+    line-height: 30px;
+    color: #000000;
     padding: 3px;
     text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+    display: block;
 }
 
+
 .lateral ul a:hover{
-    background: url(../img/marcador.png) no-repeat left center;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
     padding-left: 20px;
 	color: #a1a1a1;
 }
