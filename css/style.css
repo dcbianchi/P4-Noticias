@@ -120,18 +120,20 @@ body.fotos #navegacao a#fotos{
 }
 
 /* ...::: Principal :::... */
-.principal{
+#tres-colunas #principal{
     float: left;
     width: 300px;
     margin: 0 0 10px 190px;
 }
 
-#duas-colunas .principal{
-    width: 555px;
+#duas-colunas #principal{
+    width: 600px;
+    float: left;
+    margin: 0 0 10px 190px;
 }
 
-#uma-coluna .principal{
-    width: 750px;
+#uma-coluna #principal{
+    width: 800px;
 }
 
 /* ...::: Elements of principal :::... */
